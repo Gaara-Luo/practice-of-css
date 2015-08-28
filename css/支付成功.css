@@ -1,0 +1,362 @@
+body{
+    margin: 0 66px 0 70px;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+header{
+    margin-top: 12px;
+}
+
+header .logo{
+    float: left;
+    display: inline;
+    font-size: 10px;
+}
+
+header .logo img{
+    vertical-align: text-bottom;
+}
+
+header .logo p{
+    display: inline;
+    margin-left: 16px;
+    letter-spacing: 10px;
+}
+
+header .head_nav{
+    float: right;
+    display: inline;
+}
+
+header .head_nav .tel{
+    display: inline;
+    font-family: Calibri,sans-serif;
+    font-size: 20px;
+}
+
+.tel img{
+    vertical-align: middle;
+}
+
+header .head_nav .head_navbar{
+    display: inline;
+    font-size: 0;
+    margin-left: 14px;
+}
+
+.head_navbar ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: inline;
+}
+
+.head_navbar ul li{
+    margin-left: 8px;
+    display: inline;
+    font-size: 12px;
+}
+
+li a .username{
+    display: inline;
+}
+
+a:link,a:visited{
+    color: #181818;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover,a:active{
+    color: #ff4400;
+}
+
+.clear{
+    clear: both;
+}
+
+
+.success{
+    margin-top: 36px;
+    height: 112px;
+    width: 100%;
+    border: 1px solid #478703;
+    background-color: #E5E5E5;
+}
+
+.success_info{
+    margin: 28px 44px 0 44px;
+    height: 38px;
+    border-bottom: 1px dashed #478703;
+}
+
+.success_logo{
+    display: inline;
+    font-size: 24px;
+    color: #478703;
+}
+
+.success_logo img{
+    vertical-align: middle;
+}
+
+.success_price{
+    display: inline;
+    margin-left: 22px;
+    padding: 0;
+    font-size: 12px;
+    color: #3B3B3B;
+}
+
+.success_price .rent_price{
+    display: inline;
+    font-size: 12px;
+    color: #3B3B3B;
+}
+
+.success_price .rent_price #rent_price{
+    color: #FF7200;
+}
+
+.success_price .contact_time{
+    display: inline;
+    margin-left: 26px;
+    font-size: 12px;
+    color: #3B3B3B;
+}
+
+.success_price .contact_time #contact_time{
+    color: #FF7200;
+}
+
+.order_info{
+    margin: 14px 44px 0 14px;
+}
+
+.order_info p{
+    margin-left: 30px;
+    vertical-align: top;
+    font-size: 12px;
+    color: #3B3B3B;
+    display: inline;
+}
+
+.order_info span{
+    color: #FF7200;
+    vertical-align: top;
+}
+
+.basic_info{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #E5E5E5;
+    height: 150px;
+    font-size: 0;
+}
+
+.basic_info_head{
+    color: #61B903;
+    background-color: lightgray;
+    font-size: 14px;
+    text-indent: 20px;
+    padding-top: 12px;
+    height: 24px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.car_info{
+    margin: 0;
+    width: 300px;
+    height: 114px;
+    display: inline-block;
+}
+
+.car_info .car_pic{
+    width: 299px;
+    height: 89px;
+    margin: 0;
+    border-bottom: 1px solid #E5E5E5;
+    border-right: 1px solid #E5E5E5;
+    display: block;
+}
+
+.car_info .car_pic img{
+    width: 299px;
+    height: 89px;
+}
+
+.car_info .car_detail{
+    margin-top: 0;
+    width: 300px;
+    height: 23px;
+    font-size: 0;
+    background-color: #FFFFFF;
+}
+
+.car_info .car_detail span{
+    height: 23px;
+    width: 99px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #5C5C5C;
+    border-right: 1px solid #E5E5E5;
+}
+
+.time_place{
+    display: inline-block;
+    height: 114px;
+    font-size: 0;
+    width: calc(100% - 300px);
+    vertical-align: top;
+    background-color: #FFFFFF;
+}
+
+.time_place .get{
+    height: 57px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.time_place span{
+    font-size: 12px;
+}
+
+.time_place .get p{
+    color: #181818;
+    display: inline-block;
+    line-height: 57px;
+    height: 57px;
+}
+
+.time_place .get .time{
+    font-size: 14px;
+    margin: 0 auto 0 20px;
+}
+
+.time_place .get .place{
+    font-size: 14px;
+    margin: 0 auto 0 86px;
+}
+
+.time_place .return{
+    height: 57px;
+    vertical-align: middle;
+}
+
+.time_place .return p{
+    color: #181818;
+    display: inline-block;
+    line-height: 57px;
+    height: 57px;
+}
+
+.time_place .return .time{
+    font-size: 14px;
+    margin: 0 auto 0 20px;
+}
+
+.time_place .return .place{
+    font-size: 14px;
+    margin: 0 auto 0 86px;
+}
+
+.order_button{
+    margin-top: 26px;
+    height: 25px;
+    text-align: center;
+    letter-spacing: 14px;
+}
+
+.order_button button{
+    padding: 0;
+    width: 84px;
+    height: 25px;
+    font-size: 14px;
+    vertical-align: top;
+    color: #5C5C5C;
+    background-color: #EEEEEE;
+}
+
+.tips{
+    margin-top: 45px;
+    width: 100%;
+    height: 319px;
+    font-size: 0;
+}
+
+.tips .first_rent_tips{
+    width: 100%;
+    height: 27px;
+    border: 1px solid #E5E5E5;
+    font-size: 14px;
+    color: #5C5C5C;
+    text-indent: 18px;
+    padding-top: 16px;
+}
+
+.tips img{
+    float: right;
+    margin-right: 36px;
+    margin-top: 2px;
+}
+
+.tips span{
+    float: right;
+    margin-right: 10px;
+    margin-top: 2px;
+    color: #2E97D9;
+    font-size: 12px;
+}
+
+.tips .how_get{
+    padding-top: 20px;
+    margin-top: 18px;
+    width: 100%;
+    height: 124px;
+    border: 1px solid #E5E5E5;
+    font-size: 14px;
+    color: #5C5C5C;
+    text-indent: 18px;
+}
+
+.tips p{
+    text-indent: 30px;
+    font-size: 10px;
+    color: #848484;
+}
+
+.tips .change_rules{
+    padding-top: 16px;
+    margin-top: 18px;
+    width: 100%;
+    height: 74px;
+    border: 1px solid #E5E5E5;
+    font-size: 14px;
+    color: #5C5C5C;
+    text-indent: 18px;
+}
+
+footer{
+    margin-top: 68px;
+    font-size: 0;
+}
+
+.foot_nav{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.foot_nav ul{
+    list-style-type: none;
+    display: inline;
+}
+
+.foot_nav ul li{
+    margin-left: 24px;
+    display: inline;
+    font-size: 12px;
+    color: #5C5C5C;
+}

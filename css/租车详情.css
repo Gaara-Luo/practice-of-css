@@ -1,0 +1,765 @@
+body{
+    margin: 0;
+    padding: 0 30px;
+}
+
+header .logo{
+    margin-top: 16px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+header .logo input{
+    vertical-align: bottom;
+}
+
+header .logo p{
+    display: inline;
+    text-indent: 16px;
+    letter-spacing: 10px;
+    font-size: 12px;
+    color: #181818;
+}
+
+header .head_nav{
+    margin-top: 28px;
+    display: inline;
+    float: right;
+    font-size: 0;
+}
+
+header .head_nav p{
+    font-size: 20px;
+    color: #181818;
+    font-weight: bold;
+    display: inline;
+}
+
+header .head_nav p input{
+    vertical-align: middle;
+}
+
+header .head_nav ul{
+    list-style: none;
+    display: inline;
+    padding: 0;
+    margin: 0 0 0 6px;
+}
+
+header .head_nav ul li{
+    display: inline;
+    color: #181818;
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+a:link,a:visited{
+    color: #181818;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover,a:active{
+    color: #ff4400;
+}
+
+.clear{
+    clear: both;
+}
+
+.rent{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.rent .rent_info{
+    width: calc(100% - 294px);
+    font-size: 0;
+    float: left;
+}
+
+.rent .rent_info .basic_info{
+
+    border: 1px solid #E5E5E5;
+    height: 200px;
+    font-size: 0;
+}
+
+.rent .rent_info .basic_info .basic_info_head{
+    height: 37px;
+    background-color: #E5E5E5;
+}
+
+.rent .rent_info .basic_info .basic_info_head p{
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.rent .rent_info .basic_info .basic_info_head .basic{
+    margin: 0;
+    height: 37px;
+    line-height: 37px;
+    padding-left: 20px;
+    float: left;
+}
+
+.rent .rent_info .basic_info .basic_info_head .change{
+    float: right;
+    margin: 0;
+    height: 37px;
+    line-height: 37px;
+    padding-right: 24px;
+}
+
+.rent .rent_info .basic_info .basic_info_head .change input{
+    vertical-align: middle;
+}
+
+.rent .rent_info .basic_info .car_info{
+    width: 300px;
+    height: 163px;
+    display: inline-block;
+}
+
+.rent .rent_info .basic_info .car_info .car_pic{
+    width: 299px;
+    height: 139px;
+    border-right: 1px solid #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.rent .rent_info .basic_info .car_info .car_detail{
+    height: 23px;
+    width: 300px;
+    color: #5C5C5C;
+    font-size: 0;
+    background-color: #FFFFFF;
+}
+
+.rent .rent_info .basic_info .car_info .car_detail span{
+    height: 23px;
+    width: 99px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    color: #5C5C5C;
+    border-right: 1px solid #E5E5E5;
+}
+
+.rent .rent_info .basic_info .time_place{
+    display: inline-block;
+    height: 163px;
+    vertical-align: top;
+    font-size: 0;
+    width: calc(100% - 300px);
+}
+
+.rent .rent_info .basic_info .time_place p{
+    padding: 14px 0;
+    margin: 0;
+    font-size: 14px;
+    height: 12px;
+    color: #181818;
+    text-indent: 20px;
+    font-weight: bold;
+
+}
+
+.rent .rent_info .basic_info .time_place p span{
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.rent .rent_info .basic_info .time_place .get_time{
+    border-bottom: 1px dashed #E5E5E5;
+}
+
+.rent .rent_info .basic_info .time_place .return_time{
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.rent .rent_info .basic_info .time_place .get_place{
+    border-bottom: 1px dashed #E5E5E5;
+}
+
+.rent .rent_info .renter{
+    height: 150px;
+    border: 1px solid #E5E5E5;
+}
+
+.rent .rent_info .renter .renter_head{
+    background-color: #E5E5E5;
+    font-size: 14px;
+    font-weight: bold;
+    color: #181818;
+    height: 37px;
+    line-height: 37px;
+    text-indent: 20px;
+}
+
+.rent .rent_info .renter .renter_id{
+    font-size: 12px;
+    font-weight: bold;
+    color: #181818;
+    margin-left: 28px;
+    width: 550px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.rent .rent_info .renter .renter_id .id_type{
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.rent .rent_info .renter .renter_id .id_number{
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 0 36px;
+    padding: 0;
+}
+
+.rent .rent_info .renter .renter_id .id_type label{
+    margin: 30px 16px 36px 6px;
+    display: inline-block;
+}
+
+.rent .rent_info .renter .renter_id .id_type .select select{
+    width: 170px;
+    height: 22px;
+    padding-right: 2px;
+    -webkit-appearance: none;
+    border: none;
+    background:url(../resource/images/rent_detail/4.png) no-repeat right center;
+}
+
+.rent .rent_info .renter .renter_id .id_type .select{
+    width: 170px;
+    height: 22px;
+    display: inline-block;
+    border: 1px solid #E5E5E5;
+}
+
+.rent .rent_info .renter .renter_id .id_number label{
+    margin: 30px 16px 36px 6px;
+    display: inline-block;
+}
+
+.rent .rent_info .renter .renter_id .id_number input{
+    border-radius: 2px;
+    width: 170px;
+    height: 20px;
+    border-width: 1px;
+}
+
+.rent .rent_info .renter .rent_tips{
+    font-size: 12px;
+    color: #FF4400;
+    margin-left: 28px;
+    margin-top: 6px;
+}
+
+.rent .rent_info .cost_details{
+    border: 1px solid #E5E5E5;
+}
+
+.rent .rent_info .cost_details .cost_head{
+    background-color: #E5E5E5;
+    font-size: 14px;
+    font-weight: bold;
+    color: #181818;
+    height: 37px;
+    line-height: 37px;
+    text-indent: 20px;
+    border: none;
+}
+
+.rent .rent_info .cost_details > div{
+    height: 64px;
+    border-bottom: 1px dashed #E5E5E5;
+}
+
+.rent .rent_info .cost_details .title{
+    font-size: 14px;
+    font-weight: bold;
+    color: #181818;
+    height: 64px;
+    line-height: 64px;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    padding-left: 28px;
+}
+
+.rent .rent_info .cost_details .price{
+    height: 64px;
+    line-height: 64px;
+    margin: 0;
+    font-size: 11px;
+    color: #3B3B3B;
+    vertical-align: top;
+    display: inline-block;
+    float: right;
+    padding-right: 26px;
+}
+
+.rent .rent_info .cost_details .price span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF7200;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.rent .rent_info .cost_details .price .sign{
+    font-size: 14px;
+}
+
+.rent .rent_info .cost_details .car_rent .date{
+    width: 228px;
+    height: 40px;
+    margin-left: 22px;
+    margin-top: 12px;
+    float: left;
+    border: 1px solid #E5E5E5;
+}
+
+.rent .rent_info .cost_details .car_rent .date input{
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    font-size: 10px;
+    color: #848484;
+    vertical-align: middle;
+    width: 90px;
+    padding-left: 10px;
+}
+
+.rent .rent_info .cost_details .car_rent .date > span{
+    height: 40px;
+    line-height: 40px;
+    font-size: 10px;
+    vertical-align: middle;
+    color: #848484;
+}
+
+.rent .rent_info .cost_details .basic_insurance .title span{
+    font-size: 11px;
+    font-weight: normal;
+    color: #3B3B3B;
+}
+
+.rent .rent_info .cost_details .basic_insurance .title img{
+    vertical-align: middle;
+}
+
+.rent .rent_info .cost_details .get_car p img{
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.rent .rent_info .cost_details .get_car p .checked{
+    width: 18px;
+    height: 18px;
+    margin-top: -1px;
+    margin-left: 0;
+}
+
+.rent .rent_info .cost_details .get_car .title span{
+    margin-left: 20px;
+    color: #005ea7;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.rent .rent_info .cost_details .send_car .title{
+    height: auto;
+    line-height: normal;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    padding-top: 24px;
+    padding-bottom: 10px;
+    padding-left: 28px;
+}
+
+.rent .rent_info .cost_details .send_car .price{
+    height: auto;
+    line-height: normal;
+    margin: 0;
+    font-size: 11px;
+    color: #3B3B3B;
+    vertical-align: top;
+    display: inline-block;
+    float: right;
+    padding-top: 24px;
+    padding-right: 26px;
+}
+
+.rent .rent_info .cost_details .send_car p img{
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+.rent .rent_info .cost_details .send_car p .checked{
+    width: 18px;
+    height: 18px;
+    margin-top: -1px;
+    margin-left: 0;
+}
+
+.rent .rent_info .cost_details .send_car .title span{
+    margin-left: 20px;
+    color: #005ea7;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.rent .rent_info .cost_details .send_car .open{
+    margin-bottom: 24px;
+}
+
+.rent .rent_info .cost_details .send_car .open p{
+    font-size: 10px;
+    text-indent: 36px;
+    margin-top: 10px;
+    color: #848484;
+}
+
+.rent .rent_info .cost_details .pay_method{
+    height: auto;
+}
+
+.rent .rent_info .cost_details .pay_method .title{
+    height: auto;
+    line-height: normal;
+    margin: 0;
+    float: none;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    padding-left: 28px;
+}
+
+.rent .rent_info .cost_details .pay_method .title span{
+    font-size: 11px;
+    color: #005ea7;
+    margin-left: 20px;
+}
+
+.rent .rent_info .cost_details .pay_method .method{
+    font-size: 11px;
+    color: #848484;
+    margin-left: 36px;
+    margin-bottom: 20px;
+}
+
+.rent .rent_info .cost_details .pay_method .change_method p{
+    height: 28px;
+    line-height: 28px;
+    margin: 0 28px;
+    font-size: 11px;
+    color: #848484;
+}
+
+.rent .rent_info .cost_details .pay_method .change_method p input{
+    margin: 0;
+    vertical-align: middle;
+}
+
+.rent .rent_info .cost_details .pay_method .change_method p label{
+    margin-right: 200px;
+    width: 100px;
+    display: inline-block;
+}
+
+.rent .rent_info .cost_details .pay_method .change_method p a{
+    color: #005ea7;
+}
+
+.rent .rent_info .cost_details .pay_method .change_method form > input{
+    height: 32px;
+    width: 126px;
+    margin: 24px 28px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #75C421;
+    border-radius: 2px;
+    border: 0;
+}
+
+.rent .rent_info .cost_details .invoice{
+    height: auto;
+}
+
+.rent .rent_info .cost_details .invoice .title{
+    height: auto;
+    line-height: normal;
+    margin: 0;
+    float: none;
+    padding-top: 20px;
+    padding-bottom: 14px;
+    padding-left: 28px;
+}
+
+.rent .rent_info .cost_details .invoice .title span{
+    font-size: 11px;
+    color: #005ea7;
+    margin-left: 20px;
+}
+
+.rent .rent_info .cost_details .invoice .invoice_info{
+    font-size: 11px;
+    color: #848484;
+    margin-top: 0;
+    margin-left: 36px;
+    margin-bottom: 10px
+}
+
+.rent .rent_info .cost_details .invoice .remark{
+    margin-bottom: 20px;
+    margin-left: 36px;
+    color: #ff4400;
+    font-size: 11px;
+}
+
+.rent .rent_info .cost_details .invoice .remark img{
+    vertical-align: middle;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice{
+    margin-left: 50px;
+    margin-right: 26px;
+    font-size: 0;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice form > div{
+    font-size: 14px;
+    font-weight: bold;
+    color: #3B3B3B;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice form .invoice_type p{
+    height: 28px;
+    line-height: 28px;
+    font-size: 11px;
+    color: #848484;
+    font-weight: normal;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice form .invoice_type p > input{
+    margin: 0;
+    vertical-align: middle;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice form .invoice_type p span{
+    color: #005ea7;
+    cursor: pointer;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice form > .remark{
+    margin: 0;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice form > input{
+    margin-top: 18px;
+    margin-bottom: 20px;
+    width: 126px;
+    height: 32px;
+    background-color: #75C421;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    border-radius: 2px;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice .invoice_content{
+    margin-top: 22px;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice .invoice_content img{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice .invoice_content p{
+    margin-top: 18px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 11px;
+    font-weight: normal;
+    color: #848484;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice .invoice_content p > input{
+    margin: 0;
+    vertical-align: middle;
+}
+
+.rent .rent_info .cost_details .invoice .change_invoice .invoice_content p > label{
+    margin-right: 10px;
+}
+
+.rent .rent_info .cost_details .payment{
+    border: none;
+}
+
+.rent .rent_info .cost_details .payment p{
+    margin: 0;
+    font-size: 11px;
+    font-weight: bold;
+    height: 64px;
+    line-height: 64px;
+    color: #3B3B3B;
+    float: right;
+    margin-right: 14px;
+}
+
+.rent .rent_info .cost_details .payment p img{
+    vertical-align: middle;
+}
+
+.rent .rent_info .cost_details .payment p span{
+    font-size: 30px;
+    color: #FF7400;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.rent .rent_info .cost_details .payment p .sign{
+    font-size: 18px;
+}
+
+.rent .rent_info .cost_details .payment p input{
+    width: 84px;
+    height: 36px;
+    margin-left: 20px;
+    font-size: 14px;
+    background-color: #5FBA05;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+}
+
+.rent .other_info{
+    float: left;
+    width: 278px;
+    margin-left: 12px;
+    padding: 0;
+    border: 1px solid #E5E5E5;
+}
+
+.rent .other_info .map input{
+    padding: 0;
+}
+
+.rent .other_info .place{
+    font-size: 14px;
+    font-weight: bold;
+    height: 106px;
+    color: #5C5C5C;
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.rent .other_info .place p{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    color: #848484;
+    font-weight: normal;
+}
+
+.rent .other_info .place p a{
+    color: #5397d9;
+}
+
+.rent .other_info .place p input{
+    vertical-align: middle;
+}
+
+.rent .other_info .return{
+    height: 170px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5C5C5C;
+    padding-left: 14px;
+    padding-top: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.rent .other_info .return p{
+    margin: 7px 0 0 0;
+    padding: 0;
+    font-size: 10px;
+    color: #848484;
+    font-weight: normal;
+}
+
+.rent .other_info .return .pre_return{
+    margin-top: 18px;
+}
+
+.rent .other_info .tips{
+    height: 108px;
+    padding: 14px 20px 12px 14px;
+    font-size: 14px;
+    color: #5C5C5C;
+    font-weight: bold;
+}
+
+.rent .other_info .tips p{
+    font-size: 10px;
+    color: #848484;
+    font-weight: normal;
+    line-height: 100%;
+}
+
+.change_rules{
+    padding-top: 14px;
+    margin-top: 28px;
+    width: 100%;
+    height: 94px;
+    border: 1px solid #E5E5E5;
+    font-size: 14px;
+    color: #5C5C5C;
+    text-indent: 18px;
+}
+
+.change_rules p{
+    font-size: 10px;
+    color: #848484;
+    text-indent: 34px;
+}
+
+footer{
+    margin-top: 48px;
+    margin-bottom: 70px;
+    margin-left: 280px;
+    font-size: 0;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    display: inline;
+    font-size: 12px;
+    color: #5C5C5C;
+    margin-right: 22px;
+}

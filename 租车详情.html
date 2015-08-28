@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>租车详情</title>
+    <link type="text/css" rel="stylesheet" href="css/租车详情.css" />
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <input type="image" src="resource/images/rent_detail/1.png" />
+            <p>江铃新能源</p>
+        </div>
+        <div class="head_nav">
+            <p>
+                <input type="image" src="resource/images/rent_detail/3.png" />
+                0791-8385-0541
+            </p>
+            <ul>
+                <li><a href="#">欢迎您，<span>王明</span></a></li>
+                <li>|</li>
+                <li><a href="#">我的订单</a></li>
+                <li>|</li>
+                <li><a href="#">退出</a></li>
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </header>
+    <div class="rent">
+        <div class="rent_info">
+            <div class="basic_info">
+                <div class="basic_info_head">
+                    <p class="basic">基本信息</p>
+                    <p class="change">修改<input type="image" src="resource/images/rent_detail/8.png" /></p>
+                    <div class="clear"></div>
+                </div>
+                <div class="car_info">
+                    <div class="car_pic"><img src="resource/images/rent_detail/租车详情 1.1.png"/></div>
+                    <div class="car_detail">
+                        <span>江铃E100</span>
+                        <span>两厢/自动</span>
+                        <span>乘坐4人</span>
+                    </div>
+                </div>
+                <div class="time_place">
+                    <p class="get_time">取车时间：<span>2014年12月24日10点00分</span></p>
+                    <p class="return_time">还车时间：<span>2014年12月26日10点00分</span></p>
+                    <p class="get_place">取车地点：<span>南昌 昌北机场店</span></p>
+                    <p class="return_place">还车地点：<span>南昌 昌北机场店</span></p>
+                </div>
+            </div>
+            <div class="renter">
+                <div class="renter_head">租车人信息</div>
+                <div class="renter_id">
+                    <div class="id_type">*
+                        <label for="select">证件类型</label>
+                        <div class="select" >
+                            <select id="select">
+                                <option value="0">身份证</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="id_number">*
+                        <label for="id_number">证件号码</label>
+                        <input type="text" id="id_number"/>
+                    </div>
+                </div>
+                <div class="rent_tips">以上信息请认真填写，取车时需现场核对！</div>
+            </div>
+            <div class="cost_details">
+                <div class="cost_head">费用明细</div>
+                <div class="car_rent">
+                    <p class="title">车辆租金</p>
+                    <p class="date">
+                        <input type="date" id="start_date"/>
+                        <span>——</span>
+                        <input type="date" id="end_date"/>
+                    </p>
+                    <p class="price">￥50x2=<span class="sign">￥</span><span>100</span></p>
+                    <div class="clear"></div>
+                </div>
+                <div class="basic_insurance">
+                    <p class="title">基本保险<span>（必选）</span><img src="resource/images/rent_detail/7.png"/></p>
+                    <p class="price">￥50x2=<span class="sign">￥</span><span>100</span></p>
+                    <div class="clear"></div>
+                </div>
+                <div class="commission">
+                    <p class="title">手续费</p>
+                    <p class="price"><span class="sign">￥</span><span>35</span></p>
+                    <div class="clear"></div>
+                </div>
+                <div class="get_car">
+                    <p class="title"><img src="resource/images/rent_detail/5.png" class="checked"/>上门取车<a href="javascript:get_open()"><span>展开<img src="resource/images/rent_detail/4.png" /></span></a></p>
+                    <p class="price"><span class="sign">￥</span><span>50</span></p>
+                    <div class="clear"></div>
+                </div>
+                <div class="send_car" id="send_car">
+                    <p class="title"><img src="resource/images/rent_detail/5.png" class="checked"/>送车上门<a href="javascript:send_open()"><span>展开<img src="resource/images/rent_detail/4.png" /></span></a></p>
+                    <p class="price"><span class="sign">￥</span><span>50</span></p>
+                    <div class="clear"></div>
+                    <div class="open" id="send_open" style="display: none">
+                        <p>服务费：<span class="sign">￥</span><span>50</span>元/次</p>
+                        <p>江铃新能源租车可以到指定地点取车并为客户现场办理手续。</p>
+                        <p>服务范围：北至：新区--经开区双港路，老市区--富大有路；西至：新区--昌南大道；南至：新区--经开区黄家湖西路，</p>
+                        <p>红谷滩--前胡大道，老市区--昌南大道；冬至：昌东大道。</p>
+                        <p>为确保预定成功，请提前24小时预订。</p>
+                        <p>本服务按次计费。</p>
+                    </div>
+
+                </div>
+                <div class="pay_method" id="pay_method">
+                    <p class="title">支付方式<a href="javascript:method_open()"><span>[修改]</span></a></p>
+                    <div class="method" id="method">账户余额支付</div>
+                    <div class="change_method" id="change_method" style="display: none">
+                        <form id="form" action="javascript:save()">
+                            <p id="p-0" style="background-color: #E5E5E5">
+                                <input type="radio" id="balance_payment" checked="checked" name="change_method" value="balance_payment"/>
+                                <label for="balance_payment">账户余额支付</label>
+                                新能源账户（13006182746）&nbsp;&nbsp;&nbsp;&nbsp;余额：0元
+                                <a href="#">查看账户信息</a>
+                            </p>
+                            <p id="p-1">
+                                <input type="radio" id="online_payment" name="change_method" value="online_payment"/>
+                                <label for="online_payment">在线支付</label>
+                                即时到账，支持绝大多数银行借记卡及部分信用卡
+                                <a href="#">查看银行及限额</a>
+                            </p>
+                            <p id="p-2">
+                                <input type="radio" id="store_payment" name="change_method" value="store_payment"/>
+                                <label for="store_payment">门店支付</label>
+                                门店提货付款，支持现金、POS机刷卡、支票支付
+                                <a href="#">查看服务</a>
+                            </p>
+                            <input type="submit" value="保存支付方式" id="save"/>
+                        </form>
+                    </div>
+                </div>
+                <div class="invoice" id="invoice_method">
+                    <p class="title">发票信息<a href="javascript:invoice_open()"><span>[修改]</span></a></p>
+                    <div id="invoice" >
+                        <p class="invoice_info" id="invoice_info">不开发票</p>
+                        <p class="remark">备注：如商品由第三方卖家销售，发票内容由其卖家决定，发票有卖家开具并寄出<img src="resource/images/rent_detail/7.png"/></p>
+                    </div>
+                    <div class="change_invoice" id="change_invoice" style="display: none">
+                        <form id="invoice_form" action="javascript:save_invoice()">
+                            <div class="invoice_type">
+                                类型和抬头
+                                <p>
+                                    <input type="radio" name="invoice" checked="checked" id="individual"/>
+                                    &nbsp;个人&nbsp;普通发票&nbsp;
+                                    <span>编辑</span>
+                                    <span>删除</span>
+                                </p>
+                                <p>
+                                    <input type="radio" name="invoice" id="new" />
+                                    &nbsp;使用新的发票信息
+                                </p>
+                            </div>
+                            <div class="invoice_content">
+                                发票内容
+                                <img src="resource/images/rent_detail/7.png"/>
+                                <p>
+                                    <label>发票内容：</label>
+                                    <input type="radio" name="invoice_content" checked="checked" id="no_invoice"/>
+                                    <label for="no_invoice">不开发票</label>
+                                    <input type="radio" name="invoice_content" checked="checked" id="invoice_details"/>
+                                    <label for="invoice_details">明细</label>
+                                </p>
+                            </div>
+                            <p class="remark">备注：如商品由第三方卖家销售，发票内容由其卖家决定，发票有卖家开具并寄出<img src="resource/images/rent_detail/7.png"/></p>
+                            <input type="submit" value="保存发票信息" id="save_invoice"/>
+                        </form>
+
+                    </div>
+                </div>
+                <div class="payment">
+                    <p>
+                        <img src="resource/images/rent_detail/7.png"/>
+                        订单总价:
+                        <span class="sign">￥</span>
+                        <span>235</span>
+                        <input type="submit" value="提交支付"/>
+                    </p>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+        <div class="other_info">
+            <div class="map"><input type="image" src="resource/images/rent_detail/2.png"/></div>
+            <div class="place">
+                南昌 昌北机场店
+                <p>门店地址（取车地址）：昌北机场T2航站楼一层</p>
+                <p>到达厅内江铃新能源租车门店 <a href="#">路线查询></a></p>
+                <p>还车地址：昌北机场T2航站楼临时停车场B3区域</p>
+                <p>营业时间：<input type="image" src="resource/images/rent_detail/9.png" />24小时服务</p>
+            </div>
+            <div class="return">
+                <div class="after_return">
+                    超期交车
+                    <p>月租：超期按延长周期计算</p>
+                    <p>月租：超出月（不足月比例）按600/月计算</p>
+                </div>
+                <div class="pre_return">
+                    提前交车
+                    <p>日租：费用不变</p>
+                    <p>月租：根据月数按相应套餐计算，不足月按</p>
+                    <p>比例及按600/月计算</p>
+                </div>
+            </div>
+            <div class="tips">
+                温馨提示
+                <p>1.本订单仅为客户租车预约登记，提交该订单</p>
+                <p>后，客户需到门店办理具体租车手续，具体权</p>
+                <p>利义务以签署的书面合同为准。</p>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="change_rules" id="change_rules">
+        退改规则
+        <p>修改或取消订单，请提前致电0791-83850541；取车时间在10:00-20:00时，请提前2小时申请，取车时间在10:00-20:00之外，请您尽早致电申请。</p>
+        <p>（小贴士：如果您修改订单或取消订单重新预定，价格可能会发生变化。）</p>
+    </div>
+    <footer>
+        <ul>
+            <li><a href="#">购车相关</a></li>
+            <li class="pipe">|</li>
+            <li><a href="#">租车相关</a></li>
+            <li class="pipe">|</li>
+            <li><a href="#">服务承诺</a></li>
+            <li class="pipe">|</li>
+            <li><a href="#">关于我们</a></li>
+            <li class="pipe">|</li>
+            <li><a href="#">关注我们</a></li>
+            <li class="pipe">|</li>
+            <li><a href="#">网址导航</a></li>
+        </ul>
+    </footer>
+    <script type="application/javascript" src="js/租车详情.js"></script>
+</body>
+</html>
