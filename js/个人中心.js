@@ -70,3 +70,8 @@ function member_change(member){
         }
     }
 }
+
+function order_manage(){
+    var order_manage = document.getElementById("order_manage");
+    order_manage.style.display = "none";
+}
