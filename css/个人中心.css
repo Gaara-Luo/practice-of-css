@@ -1,0 +1,612 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    font-size: 0;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    height: 92px;
+    line-height: 92px;
+    width: 100%;
+    background-color: #181818;
+}
+
+header .logo{
+    float: left;
+    margin-left: 50px;
+}
+
+header .logo input{
+    vertical-align: middle;
+}
+
+.navbar{
+    list-style: none;
+    font-size: 16px;
+    float: right;
+}
+
+.navbar li{
+    display: inline;
+    margin-right: 50px;
+    font-family: ºÚÌå sans-serif;
+    color: #D6D6D6;
+}
+
+a:link,a:visited{
+    color: #D6D6D6;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover,a:active{
+    color: #FFFFFF;
+}
+
+.navbar li input{
+    vertical-align: middle;
+}
+
+.user_center{
+    font-size: 12px;
+}
+
+.title{
+    padding-left: 50px;
+    padding-top: 24px;
+    padding-bottom: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: #181818;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.user{
+    margin-left: 60px;
+    margin-right: 45px;
+}
+
+.user .user_detail{
+    float: left;
+    width: 260px;
+}
+
+.user .user_detail .user_type{
+    margin-top: 40px;
+    padding-bottom: 12px;
+    font-size: 14px;
+    color: #686868;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.user .user_detail .user_points{
+    height: auto;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.user .user_detail .points{
+    font-size: 18px;
+    float: left;
+    width: 50%;
+    color: #181818;
+    margin-top: 16px;
+    margin-bottom: 7px;
+}
+
+.user .user_detail p{
+    font-size: 12px;
+    color: #686868;
+}
+
+.user .user_detail .coupon{
+    font-size: 18px;
+    float: left;
+    width: 50%;
+    color: #181818;
+    margin-top: 16px;
+    margin-bottom: 7px;
+}
+
+.user .user_detail .user_bank{
+    height: auto;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.user .user_manage{
+    float: left;
+    margin-left: 20px;
+    width: calc(100% - 282px);
+}
+
+.user .user_manage .manage_head{
+    margin-top: 38px;
+    height: 40px;
+    border: 1px solid #DCDCDC;
+}
+
+.user .user_manage .manage_head p{
+    display: inline;
+    font-size: 16px;
+    height: 40px;
+    line-height: 40px;
+    color: #686868;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #DCDCDC;
+    cursor: pointer;
+}
+
+.user .user_manage .manage_head p input{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.user .user_manage .order_manage .rent_order{
+    margin-top: 26px;
+    padding: 0 16px;
+    border: 1px solid #DCDCDC;
+}
+
+.user .user_manage .order_manage .rent_order .order_state{
+    height: 40px;
+    font-size: 14px;
+    color: #686868;
+    padding-left: 5px;
+}
+
+.user .user_manage .order_manage .rent_order .order_state > p{
+    float: left;
+    margin-top: 20px;
+}
+
+.user .user_manage .order_manage .rent_order .order_state > div{
+    float: right;
+    margin-right: 5px;
+    margin-top: 9px;
+    font-size: 0;
+}
+
+.user .user_manage .order_manage .rent_order .order_state > div p{
+    margin-left: 0;
+    display: inline-block;
+    border-top: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #686868;
+    text-align: center;
+    cursor: pointer;
+}
+
+.user .user_manage .order_manage .rent_order .order_state > div p:first-child{
+    border-left: 1px solid #DCDCDC;
+    width: 80px;
+    border-top: 2px solid #62B903;
+    background-color: #FFFFFF;
+    color: #62B903;
+}
+
+.user .user_manage .order_manage .rent_order .order_head{
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    height: 36px;
+    font-size: 0;
+    padding-left: 5px;
+}
+
+.user .user_manage .order_manage .rent_order ul{
+    list-style: none;
+}
+
+.user .user_manage .order_manage .rent_order ul li{
+    display: inline-block;
+    line-height: 36px;
+    width: calc(20% - 1px);
+    font-size: 12px;
+    color: #181818;
+    font-weight: bold;
+    text-align: center;
+}
+
+.user .user_manage .order_manage .rent_order ul li:first-child{
+    text-align: left;
+}
+
+.user .user_manage .order_manage .rent_order .order_detail{
+    height: 52px;
+    padding-left: 5px;
+}
+
+.user .user_manage .order_manage .rent_order .order_detail ul li{
+    line-height: 52px;
+    font-weight: normal;
+}
+
+.user .user_manage .order_manage .order_explain{
+    margin-top: 26px;
+    padding: 0 16px;
+    border: 1px solid #DCDCDC;
+}
+
+.user .user_manage .order_manage .order_explain div{
+    border-top: 1px solid #DCDCDC;
+    height: 17px;
+    font-size: 12px;
+    color: #686868;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+
+.user .user_manage .order_manage .order_explain div:first-child{
+    font-size: 14px;
+    border-top: none;
+}
+
+.user .user_manage .order_manage .order_explain div.explain_head{
+    color: #181818;
+    font-weight: bold;
+}
+
+.user .user_manage .order_manage .order_explain div p{
+    display: inline-block;
+}
+
+.user .user_manage .order_manage .order_explain div p:first-child{
+    width: 30%;
+}
+
+.user .user_manage .order_manage .order_tips{
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #CFEBB3;
+    font-size: 12px;
+    color: #686868;
+}
+
+.user .user_manage .order_manage .order_tips{
+    line-height: 30px;
+}
+
+.user .user_manage .account_manage .account{
+    margin-top: 26px;
+    padding: 0 16px;
+    border: 1px solid #DCDCDC;
+}
+
+.user .user_manage .account_manage .account .account_type{
+    height: 40px;
+    font-size: 14px;
+    color: #686868;
+    padding-left: 5px;
+}
+
+.user .user_manage .account_manage .account .account_type > p{
+    float: left;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.user .user_manage .account_manage .account .account_type > div{
+    float: right;
+    margin-right: 5px;
+    margin-top: 9px;
+    font-size: 0;
+}
+
+.user .user_manage .account_manage .account .account_type > div p{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    border-top: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+    line-height: 30px;
+    font-size: 14px;
+    color: #686868;
+    text-align: center;
+    cursor: pointer;
+}
+
+.user .user_manage .account_manage .account .account_type > div p:first-child{
+    border-left: 1px solid #DCDCDC;
+    width: 70px;
+    border-top: 2px solid #62B903;
+    background-color: #FFFFFF;
+    color: #62B903;
+}
+
+.user .user_manage .account_manage .account .account_type > div p:nth-child(2){
+    width: 70px;
+}
+
+.user .user_manage .account_manage .account .account_detail{
+    border-top: 1px solid #DCDCDC;
+    border-bottom: 1px solid #DCDCDC;
+    padding: 10px 5px;
+    font-size: 0;
+    color: #181818;
+    font-weight: bold;
+}
+
+.user .user_manage .account_manage .account .account_detail div{
+    line-height: 30px;
+    font-size: 12px;
+    height: 30px;
+}
+
+.user .user_manage .account_manage .account .account_detail div span{
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.user .user_manage .account_manage .account .account_detail div p{
+    display: inline-block;
+    margin-right: 20px;
+    height: 26px;
+}
+
+.user .user_manage .account_manage .account .account_detail div p label{
+    font-size: 12px;
+    display: inline-block;
+    height: 26px;
+    vertical-align: top;
+}
+
+.user .user_manage .account_manage .account .account_detail div p input{
+    width: 104px;
+    height: 22px;
+    margin-right: 5px;
+}
+
+.user .user_manage .account_manage .account .account_detail div p input#bank_id{
+    width: 140px;
+}
+
+.user .user_manage .account_manage .account .account_detail div p input#submit{
+    display: inline-block;
+    width: 48px;
+    height: 26px;
+    color: #FFFFFF;
+    background-color: #62B903;
+    vertical-align: top;
+    margin-top: 1px;
+    border-width: 0;
+    border-radius: 1px;
+}
+
+.user .user_manage .account_manage .account .account_detail div.clear{
+    height: 0;
+}
+
+.user .user_manage .account_manage .account .account_detail_head{
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.user .user_manage .account_manage .account .account_detail_head ul{
+    list-style-type: none;
+}
+
+.user .user_manage .account_manage .account .account_detail_head ul li{
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    font-size: 12px;
+}
+
+.user .user_manage .account_manage .account .account_content{
+    height: 60px;
+}
+
+.user .user_manage .account_manage .account_tips{
+    margin-top: 24px;
+    padding: 16px;
+    background-color: #CFEBB3;
+    font-size: 12px;
+    color: #686868;
+    height: 214px;
+    line-height: 26px;
+}
+
+.user .user_manage .member_manage{
+    margin-top: 26px;
+    padding: 0 16px;
+    border: 1px solid #DCDCDC;
+}
+
+.user .user_manage .member_manage .member{
+    height: 40px;
+    font-size: 14px;
+}
+
+.user .user_manage .member_manage .member > p{
+    float: left;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.user .user_manage .member_manage .member > div{
+    float: right;
+    margin-right: 5px;
+    margin-top: 9px;
+    font-size: 0;
+}
+
+.user .user_manage .member_manage .member > div p{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    border-top: 1px solid #DCDCDC;
+    border-right: 1px solid #DCDCDC;
+    line-height: 30px;
+    font-size: 14px;
+    color: #686868;
+    text-align: center;
+    cursor: pointer;
+}
+
+.user .user_manage .member_manage .member > div p:first-child{
+    border-left: 1px solid #DCDCDC;
+    border-top: 2px solid #62B903;
+    color: #62B903;
+    background-color: #FFFFFF;
+}
+
+.user .user_manage .member_manage .member_detail{
+    border-top: 1px solid #DCDCDC;
+    text-align: center;
+}
+
+.user .user_manage .member_manage .member_detail div{
+    line-height: 46px;
+    font-size: 0;
+}
+
+.user .user_manage .member_manage .member_detail div p{
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #181818;
+    width: calc(50% - 46px);
+}
+
+.user .user_manage .member_manage .member_detail div p span{
+    font-weight: normal;
+    color: #686868;
+}
+
+.user .user_manage .member_manage .member_detail div p:first-child{
+    text-align: right;
+}
+
+.user .user_manage .member_manage .member_detail div p:last-child{
+    text-align: left;
+    margin-left: 42px;
+}
+
+.user .user_manage .member_manage .member_detail div p input{
+    width: 136px;
+    height: 22px;
+}
+
+.user .user_manage .member_manage .member_detail div p label{
+    display: inline-block;
+    width: 60px;
+    height: 26px;
+    text-align: right;
+}
+
+.user .user_manage .member_manage .member_detail div p select{
+    width: 140px;
+    height: 26px;
+    color: #C3C3C3;
+    text-indent: 5px;
+    -webkit-appearance: none;
+    background: url(../resource/images/user_center/id_type.png) no-repeat 95% 50%;
+}
+
+.user .user_manage .member_manage .member_detail div #save{
+    height: 35px;
+    width: 80px;
+    margin-top: 33px;
+    margin-bottom: 38px;
+    color: #FFFFFF;
+    background-color: #62B903;
+    border-width: 0;
+    border-radius: 2px;
+}
+
+.links{
+    margin-top: 20px;
+    padding: 20px 10%;
+    background-color: #E5E5E5;
+}
+
+.links div{
+    font-size: 16px;
+    color: #686868;
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.links div ul{
+    list-style: none;
+    margin-top: 20px;
+}
+
+.links div ul li{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.links div ul li > a:link{
+    color: #686868;
+}
+
+.links div ul li > a:visited{
+    color: #686868;
+}
+
+.links div ul li > a:hover{
+    color: #FFFFFF;
+}
+
+.links div ul li > a:active{
+    color: #FFFFFF;
+}
+
+footer{
+    margin-top: 5px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 10px;
+    color: #FFFFFF;
+    background-color: #848484;
+    text-align: center;
+}
+
+#order_manage{
+    width: 130px;
+    height: 96px;
+    text-align: center;
+    padding-top: 20px;
+    background: url(../resource/images/user_center/select_background.png) no-repeat;
+    position: absolute;
+    font-size: 12px;
+}
+
+#order_manage p{
+    font-size: 16px;
+    color: #686868;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#order_manage p:first-child{
+    border-bottom: 1px solid #DCDCDC;
+    color: #62B903;
+}
+
+#start_date{
+    -webkit-appearance: none;
+    background: url(../resource/images/user_center/date.png) no-repeat 95% 50%;
+}
+
+#end_date{
+    -webkit-appearance: none;
+    background: url(../resource/images/user_center/date.png) no-repeat 95% 50%;
+}
